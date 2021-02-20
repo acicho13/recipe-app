@@ -21,7 +21,7 @@ export class RecipeService {
 
   getRecipes(): Observable<IRecipe[]> {
     return this.http.get<IRecipe[]>(this.recipeUrl).pipe(
-      tap((data) => console.log("All: " + JSON.stringify(data))),
+      tap((data) =>  JSON.stringify(data)),
       catchError(this.handleError)
     );
   }

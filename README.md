@@ -28,5 +28,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Upload to github command
 
-ng build --prod --output-path project --base-href "https://acicho13.github.io/recipe-app/"
+ng build --prod --output-path [PROJECT] --base-href "https://[USERNAME].github.io/[PROJECT]/
+
+ng build --prod --output-path recipe-app --base-href "https://acicho13.github.io/recipe-app/"
 ngh --dir=dist/recipe-app
+
+ngh --dir=[PROJECT]
