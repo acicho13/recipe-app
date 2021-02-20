@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+@import "./assets/global-styles/variables";
+
+/* Custom GLobal Styles */
+body {
+  background-color: $color-grey-light;
+}
+.bg-navy {
+  background-color: $color-navy;
+}
+.white {
+  color: $color-white;
+}
+.navy {
+  color: $color-navy;
+}
