@@ -1,0 +1,16 @@
+@import "./../../../assets/global-styles/variables";
+
+.btn {
+  font-weight: 700;
+  font-size: 0.8125rem;
+  line-height: 0.8125rem;
+  margin-bottom: 5px;
+}
+.fa-chevron-left:before {
+  color: $color-navy;
+}
+.card {
+  border: 1px solid $color-grey-dark;
+  box-shadow: 5px 5px $color-grey-dark;
+  width: 20rem;
+}

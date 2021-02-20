@@ -1,0 +1,13 @@
+<!-- {{ message }} -->
+<div class="card text-center card-sm-wrapper mx-auto mb-3"
+     *ngFor="let recipe of recipes">
+  <div class="card-body">
+    <h2 class="card-title navy">{{ recipe.name }}</h2>
+    <!-- <img src="./../../assets/images/placeholder.png" class="card-img mb-3" alt=""/> -->
+    <a [routerLink]="['/recipes/', recipe.id]" class="btn btn-secondary"
+      >View Recipe</a
+    >
+  </div>
+</div>
+<router-outlet></router-outlet>
+<!-- (click)="storeData(recipe.id)  -->

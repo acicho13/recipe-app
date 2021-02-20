@@ -1,0 +1,18 @@
+@import "./../../../assets/global-styles/variables";
+
+.card-sm-wrapper {
+  width: 13rem;
+}
+.card {
+  border: 1px solid $color-grey-dark;
+  box-shadow: 5px 8px $color-grey-dark;
+}
+.btn-secondary:hover,
+.btn-secondary:focus {
+  background-color: $color-navy;
+}
+
+// img {
+//   height: 50px;
+//   width: 50px;
+// }
